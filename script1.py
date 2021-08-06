@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/') #URL where to view website, / means homepage
 def home():
-    return render_template("home.html")
+    return render_template("layout.html")
 
 @app.route('/about/')
 def about():
