@@ -10,10 +10,13 @@
         <link rel="stylesheet" href = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
     </head>
     <body>
-        <!--Home Page-->
+
+        <!--Home Page Section-->
         <section class = "header">
             <nav>
-                <a href = "index.html"><img src = "static/css/images/icons/enchant-acid-1.png"></a>
+                <a href = "index.html">
+                    <img src = "static/css/images/icons/enchant-acid-1.png">
+                </a>
                 <div class = "nav-links" id = "navLinks">
                     <i class="fa fa-times" onclick = "hideMenu()"></i>
                     <ul>
@@ -24,7 +27,7 @@
                             <a href="{{ url_for('about') }}">ABOUT</a>
                         </li>
                         <li>
-                            <a href="">COURSE</a>
+                            <a href="">CLASSES</a>
                         </li>
                         <li>
                             <a href="">BLOG</a>
@@ -49,13 +52,71 @@
                 <a href = "" class = "hero-btn">Link test</a>
             </div>
         </section>
-        <!--Course-->
-        <section class ="course">
-            <h1>Courses We Offer</h1>
-            <p>Random small text</p>
+
+
+        <!--Classes Section-->
+        <section class ="classes">
+            <h1>Classes We Offer</h1>
+            <p>
+                Random small text
+            </p>
+
+            <div class = "row">
+                <div class = "classes-col">
+                    <h3>Knight</h3>
+                    <p>
+                        Random small text
+                    </p>
+                </div>
+                <div class = "classes-col">
+                    <h3>Thief</h3>
+                    <p>
+                        Random small text
+                    </p>
+                </div>
+                <div class = "classes-col">
+                    <h3>Giant Mecha Pilot</h3>
+                    <p>
+                        Random small text
+                    </p>
+                </div>
+            </div>
         </section>
 
 
+        <!--Ability Section-->
+        <section class = "ability">
+            <h1>Abilities</h1>
+            <p>Random text</p>
+            <div class = "row">
+                <div class = "ability-col">
+                    <img src="static/css/images/icons/fireball-sky-3.png">
+                    <div class="layer">
+                        <h3>FIREBALL</h3>
+                    </div>
+                </div>
+                <div class = "ability-col">
+                    <img src="static/css/images/icons/heal-jade-3.png">
+                    <div class="layer">
+                        <h3>HEAL</h3>
+                    </div>
+                </div>
+                <div class = "ability-col">
+                    <img src="static/css/images/icons/protect-blue-3.png">
+                    <div class="layer">
+                        <h3>PROTECT</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Droids Section-->
+        <section class="droids">
+            <h1>Our Droids</h1>
+            <p>
+                These are not the droids you are looking for.
+            </p>
+        </section>
         <!-- Javascript for toggle feature-->
         <script>
 

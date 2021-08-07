@@ -97,21 +97,108 @@ nav .fa{
     display: none;
 }
 
-.course{
+.classes{
+    color: black;
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
-.course h1{
+.classes h1{
     font-size: 36px;
     font-weight: 600;
 }
-.course p{
-    color: white;
+.classes p{
+    padding-top: 10px;
     font-size: 14px;
     font-weight: 300;
     line-height: 10px;
+}
+
+.classes h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.classes-col{
+    flex-basis: 31%;
+    background: #e8f9ff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.classes-col:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+}
+
+.ability{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ability-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ability-col img{
+    width: 100%;
+    display: block;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(75, 73, 218, 0.548);
+}
+
+.ability-col h3{
+    background: rgba(255, 255, 255, 0.329);
+    width: 100%;
+    font-weight: 500;
+    color: black;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.ability-col:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+.droids{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
 }
 
 @media(max-width: 700px){
@@ -145,5 +232,9 @@ nav .fa{
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
+    }
+
+    .row{
+        flex-direction: column;
     }
 }
