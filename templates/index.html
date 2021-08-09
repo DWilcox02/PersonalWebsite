@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name = "viewport" content = "with=device-width, initial-scale=1.0">
-        <title>Tutorial Website</title>
+        <title>Daniel Wilcox</title>
         <link rel="stylesheet" href = "{{url_for('static',filename='css/style.css')}}">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,13 +23,13 @@
                             <a href="">HOME</a>
                         </li>
                         <li>
-                            <a href="{{ url_for('about') }}">ABOUT</a>
+                            <a href="#AboutAnchor">ABOUT</a>
                         </li>
                         <li>
-                            <a href="">CLASSES</a>
+                            <a href="#AchievementAnchor">ACHIEVEMENTS</a>
                         </li>
                         <li>
-                            <a href="">BLOG</a>
+                            <a href="">DROIDS</a>
                         </li>
                         <li>
                             <a href="">CONTACT</a>
@@ -38,69 +38,73 @@
                 </div>
                 <i class="fa fa-bars" onclick = "showMenu()"></i>
             </nav>
+            
             <!-- Main text box -->
             <div class= "text-box">
                 <h1>
-                    Tutorial Website
+                    Daniel Wilcox
                 </h1>
-                <p>
-                    Tutorial website to learn HTML and CSS. <br>
-                    Amogus.
-                    This was added as an extra.
-                </p>
-                <a href = "" class = "hero-btn">Link test</a>
             </div>
         </section>
 
 
-        <!--Classes Section-->
-        <section class ="classes">
-            <h1>Classes We Offer</h1>
+        <!--About Section-->
+        <section class ="about" id = "AboutAnchor">
+            <h1>Profile</h1>
             <p>
-                Random small text
+                Prosepctive Computer Science Undergraduate
             </p>
-
-            <div class = "row">
-                <div class = "classes-col">
-                    <h3>Knight</h3>
-                    <p>
-                        Random small text
-                    </p>
-                </div>
-                <div class = "classes-col">
-                    <h3>Thief</h3>
-                    <p>
-                        Random small text
-                    </p>
-                </div>
-                <div class = "classes-col">
-                    <h3>Giant Mecha Pilot</h3>
-                    <p>
-                        Random small text
-                    </p>
-                </div>
-            </div>
-        </section>
-
-
-        <!--Ability Section-->
-        <section class = "ability">
-            <h1>Abilities</h1>
-            <p>Random text</p>
-            <div class = "row">
-                <div class = "ability-col">
-                    <img src="static/css/images/icons/fireball-sky-3.png">
-                    <div class="layer">
-                        <h3>FIREBALL</h3>
+            <div class="row">
+                <div class="about-col">
+                    <div class="aboutParagraph">
+                        <h3>About Me</h3>
+                        <p>
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
                     </div>
                 </div>
-                <div class = "ability-col">
+                <dive class="about-col">
+                    <img src="static/css/images/profiles/ProfilePicture.jpeg" alt="Picture of a very handsome young man.">
+                </dive>
+                <div class="about-col">
+                    <div class="infoList">
+                        <ul>
+                            <li>
+                                <p><strong>Name: </strong> Daniel George Wilcox</p>
+                            </li>
+                            <li>
+                                <p><strong>Age: </strong> 18</p>
+                            </li>
+                            <li>
+                                <p><strong>Location: </strong> London, England</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Achievement Section-->
+        <section class = "achievement" id = "AchievementAnchor">
+            <h1>Achievements and Awards</h1>
+            <p></p>
+            <div class = "row">
+                <div class = "achievement-col">
+                    <a href="">
+                        <img src="static/css/images/STEM/Trophy.jpg">
+                        <div class="layer">
+                            <h3>4x4 in Schools STEM Competition 1st Place Prize</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class = "achievement-col">
                     <img src="static/css/images/icons/heal-jade-3.png">
                     <div class="layer">
                         <h3>HEAL</h3>
                     </div>
                 </div>
-                <div class = "ability-col">
+                <div class = "achievement-col">
                     <img src="static/css/images/icons/protect-blue-3.png">
                     <div class="layer">
                         <h3>PROTECT</h3>

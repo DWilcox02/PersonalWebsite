@@ -15,7 +15,7 @@ header */
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/1889593.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/backgrounds/DSC_0147.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -76,6 +76,7 @@ nav img{
 
 .text-box h1{
     font-size: 62px;
+    font-weight: 300;
 }
 
 .text-box p{
@@ -106,29 +107,31 @@ nav .fa{
 }
 
 /* 
-classes */
+about */
 
-.classes{
-    color: black;
-    width: 80%;
+.about{
+    color: rgb(255, 255, 255);
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    background-color: rgb(29, 29, 29);
 }
-.classes h1{
-    font-size: 36px;
-    font-weight: 600;
+.about h1{
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 5px;
 }
-.classes p{
-    padding-top: 10px;
-    font-size: 14px;
+.about p{
+    font-size: 16px;
     font-weight: 300;
     line-height: 10px;
+    margin: 10px;
+    padding-bottom: 15px;
 }
 
-.classes h3{
-    text-align: center;
-    font-weight: 600;
+.about h3{
+    font-weight: 300;
     margin: 10px;
 }
 
@@ -138,31 +141,71 @@ classes */
     justify-content: space-between;
 }
 
-.classes-col{
-    flex-basis: 31%;
-    background: #e8f9ff;
+.about-col{
+    flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
+    margin-bottom: 30px;
+    position: relative;
+    
 }
 
-.classes-col:hover{
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+.about img{
+    width: 15em;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+.about ul li{
+    list-style: none;
+    margin: auto;
+    position: relative;
+    text-align: left;
+}
+
+.infoList{
+    text-align: left;
+    margin: auto;
+    word-wrap: break-word;
+    width: 20em;
+    line-height: 120%;
+}
+
+.aboutParagraph{
+    padding-right: 10px;
+}
+
+.aboutParagraph h3{
+    text-align: left;
+    margin: auto;
+    word-wrap: break-word;
+    width: 20em;
+    line-height: 120%;
+    transform: translateX(8%);
+    position: relative;
+}
+
+.aboutParagraph p{
+    text-align: left;
+    margin: auto;
+    word-wrap: break-word;
+    width: 20em;
+    line-height: 120%;
+    
 }
 
 /* 
 abilities */
 
-.ability{
+.achievement{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
 
-.ability-col{
+.achievement-col{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -170,9 +213,10 @@ abilities */
     overflow: hidden;
 }
 
-.ability-col img{
+.achievement-col img{
     width: 100%;
     display: block;
+    object-fit: cover;
 }
 
 .layer{
@@ -189,7 +233,7 @@ abilities */
     background: rgba(75, 73, 218, 0.548);
 }
 
-.ability-col h3{
+.achievement-col h3{
     background: rgba(255, 255, 255, 0.329);
     width: 100%;
     font-weight: 500;
@@ -203,7 +247,7 @@ abilities */
     transition: 0.5s;
 }
 
-.ability-col:hover h3{
+.achievement-col:hover h3{
     bottom: 49%;
     opacity: 1;
 }

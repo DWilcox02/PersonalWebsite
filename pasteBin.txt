@@ -1,12 +1,56 @@
-margin-bottom: 40px;
-    padding: 5px;
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7));
-    background-size: cover;
-    box-sizing: content-box;
-    text-align: center;
-    border-radius: 5px;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    width: 10em;
-    position: relative;
+Row of boxes:
+
+            <div class = "row">
+                <div class = "about-col">
+                    <h3>Personal Info</h3>
+                    <p>
+                        Random small text
+                    </p>
+                </div>
+                <div class = "about-col">
+                    <h3>Thief</h3>
+                    <p>
+                        Random small text
+                    </p>
+                </div>
+                <div class = "about-col">
+                    <h3>Giant Mecha Pilot</h3>
+                    <p>
+                        Random small text
+                    </p>
+                </div>
+            </div>
+
+.about p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 10px;
+    margin: 10px;
+}
+
+.about h3{
+    font-weight: 600;
+    margin: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-col{
+    text-align: left;
+    flex-basis: 31%;
+    background: #e8f9ff;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.about-col:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+}
