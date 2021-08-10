@@ -7,3 +7,7 @@ https://towardsdatascience.com/how-to-deploy-your-website-to-a-custom-domain-8cb
 
 https://www.youtube.com/watch?v=oYRda7UtuhA
 
+http://www.pascalvangemert.nl/#/experiences
+
+http://brandoncjohnson.com/
+
