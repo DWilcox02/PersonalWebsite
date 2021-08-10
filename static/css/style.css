@@ -111,11 +111,11 @@ about */
 
 .about{
     color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
     width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
-    background-color: rgb(29, 29, 29);
 }
 .about h1{
     font-size: 40px;
@@ -199,10 +199,21 @@ about */
 abilities */
 
 .achievement{
-    width: 80%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    font-weight: 300;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
+}
+
+.achievement h1{
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    word-wrap: break-word;
+    margin: auto;
 }
 
 .achievement-col{
@@ -211,6 +222,7 @@ abilities */
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    margin: 20px;
 }
 
 .achievement-col img{
@@ -227,6 +239,7 @@ abilities */
     top: 0;
     left: 0;
     transition: 0.5s;
+    padding: 10px;
 }
 
 .layer:hover{
@@ -234,9 +247,9 @@ abilities */
 }
 
 .achievement-col h3{
-    background: rgba(255, 255, 255, 0.329);
+    background: rgba(255, 255, 255, 0.445);
     width: 100%;
-    font-weight: 500;
+    font-weight: 300;
     color: black;
     font-size: 26px;
     bottom: 0;
@@ -253,45 +266,62 @@ abilities */
 }
 
 /* 
-droids */
+skills */
 
-.droids{
-    width: 80%;
+.skills{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    font-weight: 300;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 
-.droids-col{
-    flex-basis: 31%;
-    margin-bottom: 5%;
-    text-align: left;
+.skills h1{
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    word-wrap: break-word;
+    margin: auto;
 }
 
-.droids-col img{
+.skills-col{
+    flex-basis: 31%;
+    text-align: left;
+    margin: 30px;
+}
+
+.skills-col img{
     width: 90%;
     transition: 0.5s;
+    border-radius: 50%;
 }
 
-.droids-col:hover img{
+.skills-col:hover img{
     width: 100%;
 }
 
-.droids-col p{
+.skills-col p{
     padding: 0;
+    font-size: 15px;
 }
 
-.droids-col h3{
+.skills-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+    font-weight: 300;
+    font-size: 25px;
 }
 
 /* 
 tips */
 
 .tips{
-    width: 80%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    width: 100%;
     margin: auto;
     padding-top: 100px;
     text-align: center;
@@ -302,7 +332,7 @@ tips */
     border-radius: 10px;
     margin: 20px;
     text-align: left;
-    background: #e8f9ff;
+    background: #0b6383;
     padding: 25px;
     cursor: pointer;
     display: flex;
@@ -311,7 +341,7 @@ tips */
 }
 
 .tips-col:hover{
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .2);
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.2);
 }
 
 .tips-col img{
