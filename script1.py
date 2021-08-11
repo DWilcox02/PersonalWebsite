@@ -8,7 +8,25 @@ def home():
     
 @app.route('/about/')
 def about():
-    return render_template("about.html")
+    return render_template("achievement0.html")
+
+@app.route('/STEMCompetition/')
+def stem():
+    return render_template("STEM.html")
+
+@app.route('/EagleScout/')
+def eagle():
+    return render_template("EagleScout.html")
+
+@app.route('/SATRO/')
+def satro():
+    return render_template("SATRO.html")
+
+@app.route('/NHS/')
+def nhs():
+    return render_template("NHS.html")
+
+
 
 if __name__ == "__main__":
     app.run(debug = True)

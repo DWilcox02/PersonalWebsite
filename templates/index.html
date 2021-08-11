@@ -11,28 +11,25 @@
     <body>
 
         <!--Home Page Section-->
-        <section class = "header">
+        <section class = "header" id = "HomeAnchor">
             <nav>
-                <a href = "index.html">
-                    <img src = "static/css/images/weapon/demon_blade.png">
-                </a>
                 <div class = "nav-links" id = "navLinks">
                     <i class="fa fa-times" onclick = "hideMenu()"></i>
                     <ul>
                         <li>
-                            <a href="">HOME</a>
+                            <a href="{{url_for('about')}}">HOME</a>
                         </li>
                         <li>
-                            <a href="#AboutAnchor">ABOUT</a>
+                            <a href="#AboutAnchor">PROFILE</a>
                         </li>
                         <li>
                             <a href="#AchievementAnchor">ACHIEVEMENTS</a>
                         </li>
                         <li>
-                            <a href="">skills</a>
+                            <a href="#SkillsAnchor">SKILLS</a>
                         </li>
                         <li>
-                            <a href="">CONTACT</a>
+                            <a href="#LinksAnchor">LINKS</a>
                         </li>
                     </ul>
                 </div>
@@ -44,6 +41,9 @@
                 <h1>
                     Daniel Wilcox
                 </h1>
+            </div>
+            <div class="smallText">
+                <p>Photo by: Casper Webb</p>
             </div>
         </section>
 
@@ -107,23 +107,24 @@
                 <div class = "achievement-col">
                     <img src="static/css/images/SATRO/CoverPhoto.png">
                     <div class="layer">
-                        <h3>2020 SATRO Research Program</h3>
+                        <h3>2020 SATRO Research<br>Program<br>- "Why Make Transistors<br>Smaller?" -</h3>
                     </div>
                 </div>
-            </div>
-            <!--Row 2-->
-            <div class="row">
                 <div class = "achievement-col">
                     <img src="static/css/images/NHS/Logo.png">
                     <div class="layer">
-                        <h3>National Honor Society<br>ACS Cobham</h3>
+                        <h3>National Honor Society<br>- ACS Cobham -</h3>
                     </div>
                 </div> 
+            </div>
+            <!--Row 2-->
+            <div class="row">
+                
             </div>
         </section>
 
         <!--Skills Section-->
-        <section class="skills">
+        <section class="skills" id = "SkillsAnchor">
             <h1>My Skillset</h1>
             <p>
                 
@@ -133,91 +134,111 @@
                     <img src="static/css/images/skills/Python.png">
                     <h3>Python</h3>
                     <p>
-                        Random small text
+                        
                     </p>
                 </div>
                 <div class="skills-col">
                     <img src="static/css/images/skills/Java.png">
                     <h3>Java</h3>
                     <p>
-                        Random small text
+                        
                     </p>
                 </div>
                 <div class="skills-col">
                     <img src="static/css/images/skills/ArduinoLogo.png">
                     <h3>Arduino</h3>
                     <p>
-                        Random small text
+                        
                     </p>
                 </div>
                 <div class="skills-col">
                     <img src="static/css/images/skills/Calculus.jpg">
                     <h3>Calculus</h3>
                     <p>
-                        Random small text
+                        
                     </p>
                 </div>
                 <div class="skills-col">
                     <img src="static/css/images/skills/Mandarin.png">
                     <h3>Mandarin Chinese</h3>
                     <p>
-                        Random small text
+                        
                     </p>
                 </div>
                 <div class="skills-col">
                     <img src="static/css/images/skills/FirstAidCPR.png">
                     <h3>First Aid and CPR</h3>
                     <p>
-                        Random small text
+                        
                     </p>
                 </div>
             </div>
         </section>
 
         <!--Links-->
-        <section class="tips">
-            <h1>Tips for new players</h1>
-            <p>Random small text</p>
-
+        <section class="links" id = "LinksAnchor">
+            <h1>Links and Documents</h1>
             <div class="row">
-                <div class="tips-col">
-                    <img src="static/css/images/food/grape.png">
-                    <div>
-                        <p>
-                            Eat grape to get big strong muscles
-                        </p>
-                        <h3>Grape</h3>
-                    </div>
+                <div class="links-col">
+                    <a href="https://github.com/DWilcox02">
+                        <img src="static/css/images/Links/Github.png">
+                        <div>
+                            <h3>Github</h3>
+                            <p>
+                                See all of the projects I have been working on
+                            </p>
+                        </div>
+                    </a>
                 </div>
-                <div class="tips-col">
-                    <img src="static/css/images/weapon/broad_axe2.png">
-                    <div>
-                        <p>
-                            Use axe to massacre conservatives
-                        </p>
-                        <h3>Axe</h3>
-                    </div>
+                <div class="links-col">
+                    <a href="https://www.linkedin.com/in/daniel-wilcox-24902">
+                        <img src="static/css/images/Links/LinkedIn.png">
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>
+                                Feel free to add me as a contact
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="links-col">
+                    <a href="static/css/files/DanielWilcoxCV.pdf" download>
+                        <img src="static/css/images/Links/Document.png">
+                        <div>
+                            <h3>CV</h3>
+                            <p>
+                                CV (PDF download)
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="links-col">
+                    <a href="mailto:danielgwilcox@gmail.com">
+                        <img src="static/css/images/Links/Email.png">
+                        <div>
+                            <h3>Email</h3>
+                            <p>
+                                danielgwilcox@gmail.com
+                            </p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
 
         <!--Call To Action-->
-        <section class="cta">
-            <div class="ctaText">
-                <h1>Play Now</h1>
-            </div>
-            <a href="" class="hero-btn">Link</a>
-        </section>
+        <!--
+            <section class="cta">
+                <div class="ctaText">
+                    <h1>Play Now</h1>
+                </div>
+                <a href="" class="hero-btn">Link</a>
+            </section>
+        -->
 
         <!--Footer-->
         <section class="footer">
-            <h4>Contact</h4>
-            <a href="https://www.linkedin.com/in/daniel-wilcox-24902">
-                <div class="icons">
-                    <img src="static/css/images/linkedIn.png" alt="">
-                </div>
-            </a>
-            <p><p>danielgwilcox@gmail.com</p></p>
+            <h4>Thank You For Visiting</h4>
             <p>Made by Daniel Wilcox</p>
         </section>
 
