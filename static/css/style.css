@@ -15,7 +15,7 @@ header */
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/backgrounds/DSC_0147.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/backgrounds/DSC_0147compress.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -263,7 +263,7 @@ achievements */
 }
 
 .layer:hover{
-    background: rgba(75, 73, 218, 0.61);
+    background: rgba(29, 153, 211, 0.61);
 }
 
 .achievement-col h3{
@@ -439,6 +439,78 @@ footer */
     font-size: 15px;
 }
 
+/* 
+achievement */
+
+.summary{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    font-weight: 300;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.description-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: visible;
+    margin: 20px;
+}
+
+.description-col p{
+    font-weight: 300;
+}
+
+.summary img{
+    width: 15em;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+.photoGallery{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    font-weight: 300;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.photoGallery-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    
+}
+
+.photoGallery-col img{
+    width: 90%;
+    display: block;
+    object-fit: cover;
+    transition: 0.5s;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.photoGallery-col:hover img{
+    width: 100%;
+}
+
+.photoGalleryLayer{
+    font-weight: 300;
+}
+
 @media(max-width: 700px){
     .text-box{
         font-size: 20px;
@@ -478,5 +550,9 @@ footer */
 
     .cta h1{
         font-size: 24px;
+    }
+
+    .summary img{
+        width: 10em;
     }
 }
