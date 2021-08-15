@@ -39,6 +39,24 @@ header */
     position: relative;
 }
 
+.headerSATRO{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/SATRO/ICInsights11.2019\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.headerNHS{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/SATRO/ICInsights11.2019\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 nav{
     display: flex;
     padding: 5% 5%;
@@ -450,6 +468,12 @@ footer */
 
 /* 
 achievement */
+
+.photoGallery h1{
+    padding-top: 10%;
+    font-weight: 300;
+    font-size: 40px;
+}
 
 .summary{
     color: rgb(255, 255, 255);
