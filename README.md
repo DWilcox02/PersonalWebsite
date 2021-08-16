@@ -1,13 +1,17 @@
 # PersonalWebsite
 
-
-https://www.namecheap.com/domains/registration/results/?domain=danielgwilcox.com
-
-https://towardsdatascience.com/how-to-deploy-your-website-to-a-custom-domain-8cb23063c1ff
-
-https://www.youtube.com/watch?v=oYRda7UtuhA
-
-http://www.pascalvangemert.nl/#/experiences
-
-http://brandoncjohnson.com/
-
+TODO:
+    - Check everything for spelling and grammar and if 
+    wording makes sense
+    - Add to the About Me section
+    - Add to the right column in profile
+    - Optional: Update profile picture
+    STEM:
+        Add photos from competition
+        Background Photo
+    Eagles:
+        Add photo from award ceremony
+    NHS: 
+        Den Chief Photo
+        Some other photo
+    - Buy and update domain name on namecheap

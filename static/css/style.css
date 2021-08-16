@@ -51,7 +51,7 @@ header */
 .headerNHS{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/SATRO/ICInsights11.2019\ \(1\).png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/NHS/Gang.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -484,6 +484,22 @@ achievement */
     margin: auto;
     text-align: center;
     padding-top: 10px;
+}
+
+.summarySATRO{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    font-weight: 300;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.summarySATRO p{
+    margin: auto;
+    padding: 20px;
 }
 
 .descriptionRow{
