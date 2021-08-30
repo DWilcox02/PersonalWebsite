@@ -15,7 +15,7 @@ header */
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/backgrounds/DSC_0147compress.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/backgrounds/BackgroundPhoto.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -24,7 +24,7 @@ header */
 .headerSTEM{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/backgrounds/DSC_0128.jpeg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/STEM/DrivingCar.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -180,6 +180,7 @@ about */
 .about h3{
     font-weight: 300;
     margin: 10px;
+    
 }
 
 .row{
@@ -216,7 +217,7 @@ about */
     margin: auto;
     word-wrap: break-word;
     width: 20em;
-    line-height: 120%;
+    flex-direction: column;
 }
 
 .aboutParagraph{
@@ -391,6 +392,7 @@ links */
 .links-col:hover{
     box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.281);
 }
+
 
 .links-col img{
     height: 40px;
@@ -570,34 +572,6 @@ achievement */
 @media(max-width: 700px){
     .text-box{
         font-size: 20px;
-    }
-
-    .nav-links ul li{
-        display: block;
-    }
-
-    .nav-links{
-        position: absolute;
-        background: #00a74d;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 0.5s;
-    }
-
-    .nav-links ul{
-        padding: 30px;
-    }
-
-    nav .fa{
-        display: block;
-        color: white;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
     }
 
     .row{
