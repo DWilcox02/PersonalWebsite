@@ -26,6 +26,14 @@ def satro():
 def nhs():
     return render_template("NHS.html")
 
+@app.route('/Mitiga/')
+def mitiga():
+    return render_template("Mitiga.html")
+
+@app.route('/Tutoring/')
+def tutoring():
+    return render_template("Tutoring.html")
+
 
 
 if __name__ == "__main__":

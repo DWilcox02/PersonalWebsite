@@ -30,6 +30,24 @@ header */
     position: relative;
 }
 
+.headerMitiga{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/Experience/MitigaBackground.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.headerTutoring{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(images/Experience/TutoringBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 .headerEagle{
     min-height: 100vh;
     width: 100%;
@@ -69,7 +87,6 @@ nav{
     flex: 1;
     text-align: right;
     position: fixed;
-    
     background: transparent;
     background-color: rgba(0, 0, 0, 0.815);
     z-index:1;
@@ -309,6 +326,76 @@ achievements */
 }
 
 .achievement-col:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+/* 
+exeperience */
+
+.experience{
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 29, 29);
+    font-weight: 300;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.experience h1{
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    word-wrap: break-word;
+    margin: auto;
+}
+
+.experience-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.experience-col img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.layer:hover{
+    background: rgba(29, 153, 211, 0.61);
+}
+
+.experience-col h3{
+    background: rgba(255, 255, 255, 0.603);
+    width: 100%;
+    font-weight: 300;
+    color: black;
+    font-size: 20px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.experience-col:hover h3{
     bottom: 49%;
     opacity: 1;
 }
@@ -570,6 +657,19 @@ achievement */
 }
 
 @media(max-width: 700px){
+
+    nav{
+        flex-direction: column;
+    }
+    
+    .nav-links{
+        flex-direction: column;
+    }
+    
+    .nav-links ul li{
+        flex-direction: column;
+    }
+
     .text-box{
         font-size: 20px;
     }

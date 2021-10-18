@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content = "with=device-width, initial-scale=1.0">
+        <title>Achievement</title>
+        <link rel="stylesheet" href = "{{url_for('static',filename='css/style.css')}}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <section class = "headerMitiga" id = "HomeAnchor">
+            <nav>
+                <div class = "nav-links" id = "navLinks">
+                    <i class="fa fa-times" onclick = "hideMenu()"></i>
+                    <ul>
+                        <li>
+                            <a href="{{url_for('home')}}#ExperienceAnchor">HOME</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick = "showMenu()"></i>
+            </nav>
+            <!-- Main text box -->
+            <!-- Must change header info in CSS-->
+            <div class= "text-box">
+                <h1>
+                    Mitiga Internship
+                </h1>
+                <p>
+                    September 2021 - Present
+                </p>
+            </div>
+            <div class="smallText">
+                <p></p>
+            </div>
+        </section>
+
+        <!--Description-->
+        <section class="summary" style="margin: auto; padding-bottom: 10px;">
+            <div class="description-col">
+                <p>
+                    Mitiga is an Incident Readiness and Response company based in Tel-Aviv, Israel, with offices in North-East America 
+                    and London, England. Specialising in cloud and hybrid environments, Mitiga takes a unique approach to incident response 
+                    where a speedy recovery is number one priority. <br><br>
+
+                    My role as an intern includes reports inventorying, forming a library of cybersecurity recommendations, and helping 
+                    set up Tabletop Exercises within Mitiga's unique incident response platform. I get to practice a wide array of skills, 
+                    including spreadsheeting, configuration file writing, and proposing features for the Mitiga Incident Response platform. 
+                    Alongside technical skills, Mitiga has been a fantastic introduction to the world of business. Startup companies are 
+                    very fast-paced, so I quickly learned organisational and planning skills, as well as strong communication to work with 
+                    multiple different teams on different projects. <br><br>
+
+                    You can learn more about mitiga on their website <br><br>
+                    <a href="https://www.mitiga.io/">
+                        <div class="links-col" style="margin: auto; width: 5em; display: flex; padding: 10px;">
+                            mitiga.io
+                        </div>
+                    </a>
+                </p>
+            </div>
+        </section>
+    </body>
+</html>

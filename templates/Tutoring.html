@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content = "with=device-width, initial-scale=1.0">
+        <title>Achievement</title>
+        <link rel="stylesheet" href = "{{url_for('static',filename='css/style.css')}}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <section class = "headerTutoring" id = "HomeAnchor">
+            <nav>
+                <div class = "nav-links" id = "navLinks">
+                    <i class="fa fa-times" onclick = "hideMenu()"></i>
+                    <ul>
+                        <li>
+                            <a href="{{url_for('home')}}#ExperienceAnchor">HOME</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick = "showMenu()"></i>
+            </nav>
+            <!-- Main text box -->
+            <!-- Must change header info in CSS-->
+            <div class= "text-box">
+                <h1>
+                    Maths Tutoring
+                </h1>
+                <p>
+                    January 2021 - Present
+                </p>
+            </div>
+            <div class="smallText">
+                <p></p>
+            </div>
+        </section>
+
+        <!--Description-->
+        <section class="summary" style="margin: auto; padding-bottom: 10px;">
+            <div class="description-col">
+                <p>
+                    Since January this year, I have been tutoring students aged 14-17 in mathematics. The topics we go over include 
+                    geometry, trigonometry, and algebraic operations. There has been a demonstrated improvement in grades over the past 
+                    few months, thanks to attentive students and my more down-to-earth approach. I was a student in their position not 
+                    long ago, so my insight into their technniques, mental stamina, and problem-solving methods has been incredibly beneficial 
+                    to our one-on-one sessions. <br><br>
+
+                    All sessions take place over zoom, using the zoom whiteboard feature. I save and send the notes from every session 
+                    once we are done so that students may look back on our previous work together. If you are interested, please email me at 
+                    <a href="mailto:danielgwilcox@gmail.com" style="color: white;">danielgwilcox@gmail.com</a>.
+                </p>
+            </div>
+        </section>
+    </body>
+</html>
